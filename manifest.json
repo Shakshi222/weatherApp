@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Weather Extension",
+    "version": "1.0",
+    "description": "A Chrome extension to check the current weather.",
+    "permissions": [
+      "storage"
+    ],
+    "host_permissions": [
+      "https://api.openweathermap.org/*"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/favicon.png",
+        "48": "images/favicon.png",
+        "128": "images/favicon.png"
+      }
+    }
+  }
+  
